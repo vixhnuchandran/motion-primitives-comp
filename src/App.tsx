@@ -11,7 +11,7 @@ import TextEffect from "@/components/samples/textEffect";
 // import Accordion from "@/components/samples/accordion";
 // import { Disclosure } from "@/components/samples/disclosure";
 // import { BorderTrail } from "@/components/samples/borderTrail";
-// import { Carousel } from "@/components/samples/carousel";
+import Carousel from "@/components/samples/carousel";
 // import { ScrollProgress } from "@/components/samples/scrollProgress";
 import { InView } from "./components/ui/in-view";
 // import ToolbarDynamic from "@/components/samples/toolbarDynamic";
@@ -28,11 +28,11 @@ const components = [
   "Dock",
   "Popover",
   "Animated Background",
+  "Carousel",
 
   // "Toolbar Dynamic",
   // "Accordion",
   // "Border Trail",
-  // "Carousel",
   // "Disclosure",
   // "In View",
   // "Scroll Progress",
@@ -44,7 +44,7 @@ const componentMap: { [key: string]: React.FC } = {
   // Accordion,
   AnimatedBackground,
   // BorderTrail,
-  // Carousel,
+  Carousel,
   Cursor,
   // Disclosure,
   Dock,
